@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>DOMEXAM</title>
+</head>
+
+<body>
+    <div id="proto">■＋■＝？</div>
+    <form onsubmit="return check()" name="ans">
+        <input type="text" name="num" autocomplete="off" disabled>
+    </form>
+    <div id="result"></div>
+    <div id="box">
+        <span id="text">三文連続で正解してください！</span><br>
+        <button id="btn" onclick="return start()">スタート！</button>
+        <span id="fin"></span>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

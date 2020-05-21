@@ -1,0 +1,14 @@
+.button {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+#picts {
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    margin-left: 50%;
+    margin-top: 50%;
+}
